@@ -1,4 +1,4 @@
-let img2; // Declare variable 'img'.
+let img; // Declare variable 'img'.
 
 let citys =[];
 let numCitys = 14;
@@ -96,9 +96,9 @@ if(d < 60 || d2 < 50 || d3 < 50 || d4 < 50 || d5 < 40 || d6 < 10 || d7 < 10 || d
   console.log("yes");
   t = 0;
   s = 20;
-  
-  }
   loop();
+  }
+  
 }
 
 function mouseReleased() {
